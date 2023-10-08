@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/candle2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.intro-image__text {
+    background-color:#e0e5df8c;
+    border: 2px solid #e0e5df ;
+    color: #F8F9FB;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text:hover {
+    transform: scale(1.2);
+}
+
+.intro-image__text a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro-text {
+    background-color: #b5a081;
+    color: #08120E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: -5rem;
+    padding: 0 15rem;
+    clip-path: polygon(50% 6%, 100% 0, 100% 84%, 84% 95%, 49% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+    margin-bottom: -10rem;
+
+}
+
+.beige {
+    color: white;
+    font-size: 3rem;
+}
+.heading-solid {
+    text-transform: uppercase;
+}
+
+.text-solid {
+    color: white;
+    font-size: 2rem ;
+}
+
+.packaging-text {
+    background-color:#b89671;
+    color: #08120E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: -5rem;
+    padding: 0 15rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/candle4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text {
+    background-color: #a66f5886;
+    border: 2px solid #a66f58;
+    color: #F8F9FB;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a {
+    color: white;
+    text-decoration: none;
+}
+
+.packaging-image__text:hover {
+    transform: scale(1.2);
+}
+
+.green {
+    color: white;
+    font-size: 3rem;
+}
+.heading-solid {
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url("../img/candle5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text {
+    background-color:#74746c85;
+    border: 2px solid #74746c ;
+    color: #F8F9FB;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a {
+    color: white;
+    text-decoration: none;
+}
+
+.tutorials-image__text:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #b2a097;
+    height: 250px;
+    color: #343226;    ;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: black ;
+}
